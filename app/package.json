@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "ling-cet-decoder": "^1.0.3",
+    "request": "^2.74.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "supertest": "^2.0.0"
+  }
+}
