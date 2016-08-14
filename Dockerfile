@@ -8,8 +8,7 @@ COPY app /www
 WORKDIR www
 
 # Install app dependencies
-RUN npm set progress=false && \
-    npm install --global --progress=false
+RUN npm i
 
 EXPOSE 308
 
