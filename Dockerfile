@@ -1,4 +1,5 @@
-FROM node:slim
+FROM daocloud.io/library/node
+# FROM node:slim
 
 MAINTAINER J3n5en <admin@j3n5en.com>
 COPY app /www
